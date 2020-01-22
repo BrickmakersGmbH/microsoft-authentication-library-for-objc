@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "MSAL",
             dependencies: [],
-            path: "MSAL"),
+            path: "MSAL/src"),
         .testTarget(
             name: "microsoft-authentication-library-for-objcTests",
             dependencies: ["MSAL"]),
